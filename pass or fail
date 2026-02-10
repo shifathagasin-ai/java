@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner s=new Scanner(System.in);
+        int M;
+        M=s.nextInt();
+        if(M>=0){
+            System.out.print("Pass");
+        }else{
+            System.out.print("Fail");
+        }
+        
+    }
+}
